@@ -5,13 +5,18 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Export PagerDuty Users to CSV</title>
         <link rel="stylesheet" media="all" href="https://d1qpmdev1yki74.cloudfront.net/assets/pagerduty-e5e6d6fbf0e4f67db4bb62aee3fe9ae8.css" />
+        <link rel="stylesheet" media="all" href="https://d369tvcaxue3o4.cloudfront.net/navbar-ui/aa4eef139ca3ef3cc0bde8507cd1bbb1142086d6/static/css/2.f036fc4a.chunk.css" />
     </head>
 
 <body>
     <div>
-        <!-- <h2 class="pds-h2 heading-underline">Export PagerDuty Users to CSV</h2> -->
-        <input id="ember56" size="50" placeholder="Go to incident #..." class="incident-number-field input-medium ember-text-field ember-view" type="text">
-        <h2 class="pds-h2 heading-underline">Subdomain: <input class="input-medium ember-text-field ember-view" type="text" name="subdomain"><span class="pds-h2 heading-underline">.pagerduty.com</h2>
+        <!-- class="SearchFilter_userSearchBox__3LGk_" -->
+        <div>
+            <label for="subdomain-input" id="subdomain-label" class="font-weight-bold small-caps mb-2q">Subdomain</label>
+            <!-- class="SearchFilter_userSearchIcon__ISIzn" -->
+            <input name="subdomain" id="subdomain-input" placeholder="acme-corp" autocomplete="off" type="text" class="form-control" value=""></div>.pagerduty.com
+
+        <!-- <h2 class="pds-h2 heading-underline">Subdomain: <input class="input-medium ember-text-field ember-view" type="text" name="subdomain"><span class="pds-h2 heading-underline">.pagerduty.com</h2> -->
         <h2 class="pds-h2 heading-underline">API token: <input class="input-medium ember-text-field ember-view" type="text" name="token"></h2>
         <button class="pds-btn pds-btn-primary pds-btn-sm" type="button" onclick="exportToCSV()">Export</button>
         <br>
