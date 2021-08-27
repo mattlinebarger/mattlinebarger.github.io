@@ -1,0 +1,2 @@
+.has-spoof-border:after,.has-spoof-border:before{content:"";position:absolute;display:block;top:0;bottom:0;width:.4rem;z-index:1000000;background:#ff0;background:-webkit-repeating-linear-gradient(135deg,#ff0,#ff0 12px,#000 0,#000 23px);background:repeating-linear-gradient(-45deg,#ff0,#ff0 12px,#000 0,#000 23px)}.has-spoof-border:before{left:0}.has-spoof-border:after{right:0}
+/*# sourceMappingURL=main.5f5fd706.chunk.css.map */

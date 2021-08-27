@@ -11112,8 +11112,8 @@ a.text-dark:hover {
 }
 @font-face {
   font-family: ColfaxPD;
-  src: url(https://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.dffb04fb.eot);
-  src: url(https://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.48fb204b.woff)
+  src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.dffb04fb.eot);
+  src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.48fb204b.woff)
     format("woff");
   font-weight: 100;
   font-style: normal;
