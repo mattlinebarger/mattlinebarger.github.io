@@ -9,13 +9,11 @@
 
 <body>
     <div>
-        <h2 class="pds-h2 heading-underline">Export PagerDuty Users to CSV</h2>
-        Subdomain:
-        <input type="text" name="subdomain">.pagerduty.com
-        <br> API token:
-        <input type="text" name="token">
-        <br>
-        <button type="button" onclick="exportToCSV()">Export</button>
+        <!-- <h2 class="pds-h2 heading-underline">Export PagerDuty Users to CSV</h2> -->
+        <input id="ember56" size="50" placeholder="Go to incident #..." class="incident-number-field input-medium ember-text-field ember-view" type="text">
+        <h2 class="pds-h2 heading-underline">Subdomain: <input class="input-medium ember-text-field ember-view" type="text" name="subdomain"><span class="pds-h2 heading-underline">.pagerduty.com</h2>
+        <h2 class="pds-h2 heading-underline">API token: <input class="input-medium ember-text-field ember-view" type="text" name="token"></h2>
+        <button class="pds-btn pds-btn-primary pds-btn-sm" type="button" onclick="exportToCSV()">Export</button>
         <br>
 
     </div>
