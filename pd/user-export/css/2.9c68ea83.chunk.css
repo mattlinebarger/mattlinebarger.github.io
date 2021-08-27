@@ -11112,64 +11112,64 @@ a.text-dark:hover {
 }
 @font-face {
   font-family: ColfaxPD;
-  src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.dffb04fb.eot);
-  src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.48fb204b.woff)
+  src: url(fonts/ColfaxPD-Light.dffb04fb.eot);
+  src: url(fonts/ColfaxPD-Light.48fb204b.woff)
     format("woff");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.dffb04fb.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Light.48fb204b.woff)
+    src: url(fonts/ColfaxPD-Light.dffb04fb.eot);
+    src: url(fonts/ColfaxPD-Light.48fb204b.woff)
       format("woff");
     font-weight: 100;
     font-style: normal;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-LightItalic.7d75b2f4.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-LightItalic.3dc0e76d.woff)
+    src: url(fonts/ColfaxPD-LightItalic.7d75b2f4.eot);
+    src: url(fonts/ColfaxPD-LightItalic.3dc0e76d.woff)
       format("woff");
     font-weight: 100;
     font-style: italic;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Regular.00ee3737.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Regular.898ca4fc.woff)
+    src: url(fonts/ColfaxPD-Regular.00ee3737.eot);
+    src: url(fonts/ColfaxPD-Regular.898ca4fc.woff)
       format("woff");
     font-weight: 400;
     font-style: normal;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-RegularItalic.4895dfaa.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-RegularItalic.9b1a9e86.woff)
+    src: url(fonts/ColfaxPD-RegularItalic.4895dfaa.eot);
+    src: url(fonts/ColfaxPD-RegularItalic.9b1a9e86.woff)
       format("woff");
     font-weight: 400;
     font-style: italic;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Medium.632564a9.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-Medium.51adfcef.woff)
+    src: url(fonts/ColfaxPD-Medium.632564a9.eot);
+    src: url(fonts/ColfaxPD-Medium.51adfcef.woff)
       format("woff");
     font-weight: 700;
     font-style: normal;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-MediumItalic.37d2860e.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/ColfaxPD-MediumItalic.e30b1ddb.woff)
+    src: url(fonts/ColfaxPD-MediumItalic.37d2860e.eot);
+    src: url(fonts/ColfaxPD-MediumItalic.e30b1ddb.woff)
       format("woff");
     font-weight: 700;
     font-style: italic;
   }
   @font-face {
     font-family: ColfaxPD;
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/Colfax-Bold.4f69195d.eot);
-    src: url(http://d369tvcaxue3o4.cloudfront.net/users-ui/2981eea2968fdbbde116b5bb368268ed9436b776/static/media/Colfax-Bold.253ee652.woff)
+    src: url(fonts/Colfax-Bold.4f69195d.eot);
+    src: url(fonts/Colfax-Bold.253ee652.woff)
       format("woff");
     font-weight: 900;
     font-style: normal;
