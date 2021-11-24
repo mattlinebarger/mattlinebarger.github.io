@@ -1,0 +1,6 @@
+Post Mortem - No linking in the incident.
+Slack - is on the fly automated slack chanel per incident coming soon?
+Statuspage.io - other customers, how do they use it? 
+ - they have a single service for all manual incidents
+ - would like to have a button that post to Statuspage
+ - 

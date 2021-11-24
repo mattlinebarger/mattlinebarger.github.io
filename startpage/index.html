@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>StartPage</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/feather.min.js"></script>
+  </head>
+
+  <body class="">
+    <div class="container">
+      <!-- Clock and Greetings  -->
+      <div class="timeBlock">
+        <div class="clock">
+          <div id="hour" class=""></div>
+          <div id="separator" class=""></div>
+          <div id="minutes" class=""></div>
+        </div>
+        <div id="greetings" class=""></div>
+      </div>
+
+      <!-- Date and Weather  -->
+      <div class="weatherBlock">
+        <div class="weatherBlock__date">
+          <div id="day" class=""></div>
+          <div id="date" class=""></div>
+        </div>
+        <div class="weatherBlock__weather">
+          <div class="weather-icon">
+            <img src="icons/White/unknown.png" />
+          </div>
+          <div class="temperature-value">
+            <p class="">- °<span class="g">c</span></p>
+          </div>
+          <div class="temperature-description">
+            <p class=""></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cards  -->
+        <div class="buttonLink" id="buttonsContainer">
+          <a href="https://github.com/mattlinebarger?tab=repositories" target="_blank" class="buttonLink__link card buttonLink__link-1">
+            <img src="img/github.png" alt="GitHub" width="48" height="48">
+          </a>
+      
+          <a href="https://hub.docker.com/search?type=image" target="_blank" class="buttonLink__link card buttonLink__link-2">
+            <img src="img/docker.png" alt="Docker Hub" width="48" height="48">
+          </a>
+      
+          <a href="https://pagerduty.okta.com/home/amazon_aws/0oa1f26d64tYiXTl90h8/272" target="_blank" class="buttonLink__link card buttonLink__link-3">
+            <img src="img/aws.png" alt="AWS Console" width="48" height="48">
+          </a>
+      
+          <a href="https://drive.google.com/drive/my-drive" target="_blank" class="buttonLink__link card buttonLink__link-4">
+            <img src="img/google-drive.png" alt="Google Drive" width="48" height="48">
+          </a>
+      
+          <a href="https://webhook.site/#!/274554d1-4dc3-40a9-9330-f120e001e1fd" target="_blank" class="buttonLink__link card buttonLink__link-5">
+            <img src="img/api.png" alt="Webhooks" width="48" height="48">
+          </a>
+      
+          <a href="https://www.w3schools.com/python/default.asp" target="_blank" class="buttonLink__link card buttonLink__link-6">
+            <img src="img/python.png" alt="W3 Python Reference" width="48" height="48">
+          </a>
+      </div>
+
+      <!-- Lists  -->
+        <div class="card list list__1" id="list_1"><img src="img/pd-logo.png" alt="PagerDuty" width="116" height="24" style="margin-top: 24px; margin-bottom: 10px;">
+          <a target="_blank" href="https://pd-admin.pd-internal.com" class="list__link">pd-admin</a>
+
+          <a target="_blank" href="https://event-sender.herokuapp.com" class="list__link">CRUX</a>
+
+          <a target="_blank" href="http://pdt-puddleglum.pagerduty.com" class="list__link">pdt-puddleglum</a>
+      
+          <a target="_blank" href="http://pdt-caspian.pagerduty.com" class="list__link">pdt-caspian</a>
+      
+          <a target="_blank" href="http://pdt-circular.pagerduty.com" class="list__link">pdt-circular</a>
+      </div>
+
+      <div class="card list list__2" id="list_2"><img src="img/pd-links.png" alt="PD Links" width="94" height="24" style="margin-top: 24px; margin-bottom: 10px;">
+        <a target="_blank" href="https://pagerduty.lightning.force.com/lightning/o/Case/home" class="list__link">Salesforce</a>
+    
+        <a target="_blank" href="https://pagerduty--jbcxm.na139.visual.force.com/apex/HomePage?sfdc.tabName=01r44000000N41W" class="list__link">Gainsight</a>
+    
+        <a target="_blank" href="https://dutonium.pagerduty.com/" class="list__link">Dutonium</a>
+    
+        <a target="_blank" href="https://pagerduty.atlassian.net/wiki/spaces/HOME/overview" class="list__link">Confluence</a>
+    
+        <a target="_blank" href="https://clockify.me/tracker" class="list__link">Clockify</a>
+    </div>
+    </div>
+
+    <!-- Config  -->
+    <script src="js/config.js"></script>
+
+    <!-- Scripts  -->
+    <script src="js/time.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/weather.js"></script>
+    <script>feather.replace();</script>
+  </body>
+</html>
