@@ -1,0 +1,36 @@
+# ----- OS / Editor noise -----
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+.vscode/
+.idea/
+
+# ----- Logs -----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ----- Node / Bundlers (if you add tooling later) -----
+node_modules/
+dist/
+build/
+.cache/
+.parcel-cache/
+.next/
+out/
+*.map
+
+# ----- Env files -----
+.env
+.env.*
+
+# ----- Sass caches -----
+.sass-cache
+*.sassc
+
+# ----- Temporary files -----
+*.swp
+*.tmp
